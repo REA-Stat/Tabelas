@@ -127,8 +127,11 @@ dev.off()
 
 ## F de Snedecor p=0.1
 
-num <- c(1:16, 18, 20, 30, 40, 60, 120)
-den <- c(2:30, 40, 60, 120)
+#num <- c(1:16, 18, 20, 30, 40, 60, 120)
+#den <- c(2:30, 40, 60, 120)
+
+num <- c(5:30, 40, 60, 120)
+den <- c(5:30, 40, 60, 120)
 
 quant.f0.1 <- matrix(rep(0, length(num)*length(den)), ncol = length(num))
 for(i in 1:length(num)){
@@ -164,8 +167,11 @@ dev.off()
 
 ## F de Snedecor p=0.05
 
-num <- c(1:16, 18, 20, 30, 40, 60, 120)
-den <- c(2:30, 40, 60, 120)
+#num <- c(1:16, 18, 20, 30, 40, 60, 120)
+#den <- c(2:30, 40, 60, 120)
+
+num <- c(5:30, 40, 60, 120)
+den <- c(5:30, 40, 60, 120)
 
 quant.f0.05 <- matrix(rep(0, length(num)*length(den)), ncol = length(num))
 for(i in 1:length(num)){
@@ -201,8 +207,11 @@ dev.off()
 
 ## F de Snedecor p=0.025
 
-num <- c(1:16, 18, 20, 30, 40, 60, 120)
-den <- c(2:30, 40, 60, 120)
+#num <- c(1:16, 18, 20, 30, 40, 60, 120)
+#den <- c(2:30, 40, 60, 120)
+
+num <- c(5:30, 40, 60, 120)
+den <- c(5:30, 40, 60, 120)
 
 quant.f0.025 <- matrix(rep(0, length(num)*length(den)), ncol = length(num))
 for(i in 1:length(num)){
@@ -238,8 +247,11 @@ dev.off()
 
 ## F de Snedecor p=0.01
 
-num <- c(1:16, 18, 20, 30, 40, 60, 120)
-den <- c(2:30, 40, 60, 120)
+#num <- c(1:16, 18, 20, 30, 40, 60, 120)
+#den <- c(2:30, 40, 60, 120)
+
+num <- c(5:30, 40, 60, 120)
+den <- c(5:30, 40, 60, 120)
 
 quant.f0.01 <- matrix(rep(0, length(num)*length(den)), ncol = length(num))
 for(i in 1:length(num)){
@@ -274,8 +286,11 @@ dev.off()
 
 
 ## F de Snedecor p=0.005
-num <- c(1:16, 18, 20, 30, 40, 60, 120)
-den <- c(2:30, 40, 60, 120)
+#num <- c(1:16, 18, 20, 30, 40, 60, 120)
+#den <- c(2:30, 40, 60, 120)
+
+num <- c(5:30, 40, 60, 120)
+den <- c(5:30, 40, 60, 120)
 
 quant.f0.005 <- matrix(rep(0, length(num)*length(den)), ncol = length(num))
 for(i in 1:length(num)){
